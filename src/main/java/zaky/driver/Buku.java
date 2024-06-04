@@ -12,7 +12,8 @@ public class Buku {
     private String judul;
     private String kodeBuku;
     private int kuantitas;
-    
+    private String produser = "zakyBook";
+
     private static int fic = 0;
     private static int nfc = 0;
     private static int txt = 0;
@@ -43,6 +44,10 @@ public class Buku {
                 this.kodeBuku = "OTH9999";
             }
         }
+    }
+
+    public String getProduser() {
+        return this.produser;
     }
 
     public String getJudul() {
