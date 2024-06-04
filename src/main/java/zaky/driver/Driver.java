@@ -37,6 +37,9 @@ public class Driver {
 
         Buku[] daftarBuku = { buku1, buku2, buku3 };
         dataPinjam.setDaftarBuku(daftarBuku);
+        dataPinjam.setDaftarBuku(daftarBuku);
+        dataPinjam.setDaftarBuku(daftarBuku);
+        dataPinjam.setDaftarBuku(daftarBuku);
 
         dataPinjam.mulaiPinjamBuku_1302213067();
 
