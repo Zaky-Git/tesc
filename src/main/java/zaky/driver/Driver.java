@@ -18,15 +18,40 @@ public class Driver {
         buku1.setKodeBuku("FIC0001");
         buku2.setKodeBuku("NFC0001");
         buku3.setKodeBuku("TXT0001");
-        
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+        buku3.setKodeBuku("TXT0001");
+
+        if (buku1.getGenre().equals("Fiksi")) {
+            System.out.println("Buku ini adalah buku fiksi");
+        } else if (buku1.getGenre().equals("Fiksi")) {
+            System.out.println("Buku ini bukan buku fiksi");
+        } else {
+            System.out.println("Buku ini bukan buku fiksi");
+        }
+
         DataPeminjaman dataPinjam = new DataPeminjaman("Zaky");
-        
-        Buku[] daftarBuku = {buku1, buku2, buku3};
+
+        Buku[] daftarBuku = { buku1, buku2, buku3 };
         dataPinjam.setDaftarBuku(daftarBuku);
-        
+        dataPinjam.setDaftarBuku(daftarBuku);
+        dataPinjam.setDaftarBuku(daftarBuku);
+        dataPinjam.setDaftarBuku(daftarBuku);
+
         dataPinjam.mulaiPinjamBuku_1302213067();
 
         dataPinjam.tampilkanDaftarBuku_1302213067();
-        
+
     }
 }
