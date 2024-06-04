@@ -9,7 +9,7 @@ public class BukuTest {
     @Test
     public void testGetProduser() {
         Buku buku = new Buku("Buku MKPL", 10);
-        assertEquals("zakyBook", buku.getProduser());
+        assertEquals("zakybubuk", buku.getProduser());
     }
 
 }
