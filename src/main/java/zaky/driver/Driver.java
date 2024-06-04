@@ -18,12 +18,12 @@ public class Driver {
         buku1.setKodeBuku("FIC0001");
         buku2.setKodeBuku("NFC0001");
         buku3.setKodeBuku("TXT0001");
-        
+
         DataPeminjaman dataPinjam = new DataPeminjaman("Zaky");
-        
-        Buku[] daftarBuku = {buku1, buku2, buku3};
+
+        Buku[] daftarBuku = { buku1, buku2, buku3 };
         dataPinjam.setDaftarBuku(daftarBuku);
-        
+
         dataPinjam.mulaiPinjamBuku_1302213067();
 
         dataPinjam.tampilkanDaftarBuku_1302213067();
