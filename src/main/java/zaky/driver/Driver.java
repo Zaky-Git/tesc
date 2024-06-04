@@ -33,6 +33,14 @@ public class Driver {
         buku3.setKodeBuku("TXT0001");
         buku3.setKodeBuku("TXT0001");
 
+        if (buku1.getGenre().equals("Fiksi")) {
+            System.out.println("Buku ini adalah buku fiksi");
+        } else if (buku1.getGenre().equals("Fiksi")) {
+            System.out.println("Buku ini bukan buku fiksi");
+        } else {
+            System.out.println("Buku ini bukan buku fiksi");
+        }
+
         DataPeminjaman dataPinjam = new DataPeminjaman("Zaky");
 
         Buku[] daftarBuku = { buku1, buku2, buku3 };
