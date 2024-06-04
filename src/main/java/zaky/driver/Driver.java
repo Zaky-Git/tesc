@@ -15,6 +15,7 @@ public class Driver {
         Buku buku2 = new Buku("Setengah Koala", 3);
         Buku buku3 = new Buku("Literature", 2);
         Buku buku4 = new Buku("Fiksi", 4);
+        Buku buku5 = new Buku("Fiksi", 4);
 
         buku1.setKodeBuku("FIC0001");
         buku2.setKodeBuku("NFC0001");
