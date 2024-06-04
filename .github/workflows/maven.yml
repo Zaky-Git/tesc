@@ -35,3 +35,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=zaky-git -Dsonar.projectKey=Zaky-Git_tesc
+
+    - name: Publish to GitHub Packages Apache Maven
+      run: mvn deploy -s settings.xml
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
